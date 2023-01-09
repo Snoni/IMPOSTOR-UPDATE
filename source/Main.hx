@@ -2,7 +2,9 @@ package;
 
 import openfl.system.System;
 import openfl.utils.AssetCache;
+#if !html5
 import cpp.vm.Gc;
+#end
 import flixel.graphics.FlxGraphic;
 import flixel.FlxCamera;
 import flixel.FlxG;
